@@ -58,3 +58,4 @@ export function CarIcon({ className = '', size = 24 }: IconProps) {
 export default {
   CarIcon,
 };
+

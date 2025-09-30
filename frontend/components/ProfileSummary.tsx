@@ -89,3 +89,4 @@ export default function ProfileSummary({ profile }: ProfileSummaryProps) {
     </div>
   );
 }
+

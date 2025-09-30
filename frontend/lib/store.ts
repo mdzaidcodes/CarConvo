@@ -95,3 +95,4 @@ export const useAppStore = create<AppState>((set) => ({
       isLoading: false,
     }),
 }));
+

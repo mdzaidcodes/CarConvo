@@ -11,9 +11,6 @@ An intelligent, conversational car recommendation platform that uses natural lan
 - **Personality Assessment**: Interactive questionnaire to understand your driving lifestyle
 - **Natural Language Chat**: Conversational AI powered by Ollama (Llama3)
 - **Smart Matching**: Intelligent algorithm matching cars to your lifestyle profile (100+ diverse vehicles)
-- **Budget Optimization**: Financing calculations with insurance and maintenance estimates
-- **Comparative Analysis**: Side-by-side vehicle comparisons with pros/cons
-- **Cost Estimation**: Detailed breakdown of ownership costs
 - **Match Scoring**: Advanced multi-criteria scoring system
 
 
