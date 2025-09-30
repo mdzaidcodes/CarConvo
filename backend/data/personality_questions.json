@@ -1,0 +1,421 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "text": "What best describes your typical day?",
+      "category": "lifestyle",
+      "multiSelect": false,
+      "options": [
+        {
+          "value": "option_a",
+          "text": "Commuting to work in the city",
+          "scores": {
+            "commuter": 3,
+            "city_driving": 3,
+            "budget_conscious": 2
+          }
+        },
+        {
+          "value": "option_b",
+          "text": "Shuttling kids to activities",
+          "scores": {
+            "family_friendly": 3,
+            "safety_focused": 2,
+            "budget_conscious": 1
+          }
+        },
+        {
+          "value": "option_c",
+          "text": "Weekend adventures and road trips",
+          "scores": {
+            "adventure": 3,
+            "performance": 2
+          }
+        },
+        {
+          "value": "option_d",
+          "text": "Varied - work, errands, and leisure",
+          "scores": {
+            "family_friendly": 1,
+            "commuter": 1,
+            "budget_conscious": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "How important is environmental impact to you?",
+      "category": "values",
+      "multiSelect": false,
+      "options": [
+        {
+          "value": "option_a",
+          "text": "Very important - I want the greenest option",
+          "scores": {
+            "eco_conscious": 3,
+            "budget_conscious": 1
+          }
+        },
+        {
+          "value": "option_b",
+          "text": "Somewhat important - good MPG matters",
+          "scores": {
+            "eco_conscious": 2,
+            "commuter": 2,
+            "budget_conscious": 2
+          }
+        },
+        {
+          "value": "option_c",
+          "text": "Not a priority - performance comes first",
+          "scores": {
+            "performance": 3,
+            "luxury": 1
+          }
+        },
+        {
+          "value": "option_d",
+          "text": "Balanced - want efficiency without sacrificing power",
+          "scores": {
+            "eco_conscious": 1,
+            "performance": 1,
+            "commuter": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "What's your ideal weekend activity?",
+      "category": "lifestyle",
+      "multiSelect": false,
+      "options": [
+        {
+          "value": "option_a",
+          "text": "Hiking, camping, or off-roading",
+          "scores": {
+            "adventure": 3,
+            "performance": 1
+          }
+        },
+        {
+          "value": "option_b",
+          "text": "Family outings to parks or events",
+          "scores": {
+            "family_friendly": 3,
+            "safety_focused": 1
+          }
+        },
+        {
+          "value": "option_c",
+          "text": "Shopping, dining, city exploration",
+          "scores": {
+            "city_driving": 3,
+            "luxury": 2
+          }
+        },
+        {
+          "value": "option_d",
+          "text": "Relaxing at home or local errands",
+          "scores": {
+            "budget_conscious": 2,
+            "commuter": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "How many passengers do you typically transport?",
+      "category": "practical",
+      "multiSelect": false,
+      "options": [
+        {
+          "value": "option_a",
+          "text": "Just myself",
+          "scores": {
+            "city_driving": 2,
+            "commuter": 2,
+            "performance": 1
+          }
+        },
+        {
+          "value": "option_b",
+          "text": "1-2 people regularly",
+          "scores": {
+            "commuter": 2,
+            "budget_conscious": 1
+          }
+        },
+        {
+          "value": "option_c",
+          "text": "3-4 people (family)",
+          "scores": {
+            "family_friendly": 3,
+            "safety_focused": 2
+          }
+        },
+        {
+          "value": "option_d",
+          "text": "5+ people often",
+          "scores": {
+            "family_friendly": 3,
+            "safety_focused": 2,
+            "budget_conscious": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "What's most important when choosing a car? (Select up to 3)",
+      "category": "priorities",
+      "multiSelect": true,
+      "maxSelections": 3,
+      "options": [
+        {
+          "value": "option_a",
+          "text": "Safety ratings and features",
+          "scores": {
+            "safety_focused": 3,
+            "family_friendly": 2
+          }
+        },
+        {
+          "value": "option_b",
+          "text": "Fuel efficiency and low running costs",
+          "scores": {
+            "budget_conscious": 3,
+            "eco_conscious": 2,
+            "commuter": 1
+          }
+        },
+        {
+          "value": "option_c",
+          "text": "Performance and driving experience",
+          "scores": {
+            "performance": 3,
+            "luxury": 1
+          }
+        },
+        {
+          "value": "option_d",
+          "text": "Technology and modern features",
+          "scores": {
+            "tech_enthusiast": 3,
+            "luxury": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "What's your budget range for a vehicle?",
+      "category": "budget",
+      "multiSelect": false,
+      "options": [
+        {
+          "value": "option_a",
+          "text": "Under $25,000 - Need value",
+          "scores": {
+            "budget_conscious": 3,
+            "commuter": 1
+          }
+        },
+        {
+          "value": "option_b",
+          "text": "$25,000-$40,000 - Mid-range comfort",
+          "scores": {
+            "family_friendly": 2,
+            "commuter": 2,
+            "budget_conscious": 1
+          }
+        },
+        {
+          "value": "option_c",
+          "text": "$40,000-$60,000 - Premium features",
+          "scores": {
+            "luxury": 2,
+            "tech_enthusiast": 2,
+            "performance": 1
+          }
+        },
+        {
+          "value": "option_d",
+          "text": "$60,000+ - Best available",
+          "scores": {
+            "luxury": 3,
+            "performance": 2,
+            "tech_enthusiast": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "Where do you do most of your driving?",
+      "category": "environment",
+      "multiSelect": false,
+      "options": [
+        {
+          "value": "option_a",
+          "text": "City streets with lots of traffic",
+          "scores": {
+            "city_driving": 3,
+            "commuter": 2,
+            "eco_conscious": 1
+          }
+        },
+        {
+          "value": "option_b",
+          "text": "Highways for long commutes",
+          "scores": {
+            "commuter": 3,
+            "budget_conscious": 1
+          }
+        },
+        {
+          "value": "option_c",
+          "text": "Mix of urban and highway",
+          "scores": {
+            "commuter": 2,
+            "family_friendly": 1
+          }
+        },
+        {
+          "value": "option_d",
+          "text": "Rural roads and off-road trails",
+          "scores": {
+            "adventure": 3,
+            "performance": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "How do you feel about new car technology?",
+      "category": "technology",
+      "multiSelect": false,
+      "options": [
+        {
+          "value": "option_a",
+          "text": "Love it! Want all the latest features",
+          "scores": {
+            "tech_enthusiast": 3,
+            "luxury": 2
+          }
+        },
+        {
+          "value": "option_b",
+          "text": "Appreciate safety tech like adaptive cruise",
+          "scores": {
+            "safety_focused": 3,
+            "tech_enthusiast": 1,
+            "family_friendly": 1
+          }
+        },
+        {
+          "value": "option_c",
+          "text": "Just need basics - phone connectivity",
+          "scores": {
+            "budget_conscious": 2,
+            "commuter": 1
+          }
+        },
+        {
+          "value": "option_d",
+          "text": "Prefer simple, reliable systems",
+          "scores": {
+            "budget_conscious": 2,
+            "adventure": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "How important is cargo/storage space?",
+      "category": "practical",
+      "multiSelect": false,
+      "options": [
+        {
+          "value": "option_a",
+          "text": "Very important - haul gear often",
+          "scores": {
+            "adventure": 2,
+            "family_friendly": 2
+          }
+        },
+        {
+          "value": "option_b",
+          "text": "Moderately - need space for groceries/luggage",
+          "scores": {
+            "family_friendly": 2,
+            "commuter": 1
+          }
+        },
+        {
+          "value": "option_c",
+          "text": "Not very - just occasional use",
+          "scores": {
+            "city_driving": 2,
+            "performance": 1
+          }
+        },
+        {
+          "value": "option_d",
+          "text": "Minimal - I travel light",
+          "scores": {
+            "city_driving": 2,
+            "commuter": 1,
+            "budget_conscious": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "What driving experience do you prefer?",
+      "category": "experience",
+      "multiSelect": false,
+      "options": [
+        {
+          "value": "option_a",
+          "text": "Smooth, quiet, comfortable ride",
+          "scores": {
+            "luxury": 3,
+            "commuter": 1
+          }
+        },
+        {
+          "value": "option_b",
+          "text": "Sporty, responsive handling",
+          "scores": {
+            "performance": 3,
+            "tech_enthusiast": 1
+          }
+        },
+        {
+          "value": "option_c",
+          "text": "High seating position, commanding view",
+          "scores": {
+            "family_friendly": 2,
+            "adventure": 2,
+            "safety_focused": 1
+          }
+        },
+        {
+          "value": "option_d",
+          "text": "Efficient and practical",
+          "scores": {
+            "budget_conscious": 2,
+            "commuter": 2,
+            "eco_conscious": 1
+          }
+        }
+      ]
+    }
+  ]
+}
